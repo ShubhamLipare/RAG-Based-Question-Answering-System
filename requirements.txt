@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain
+faiss-cpu
+openai
+streamlit
+requests
+mlflow
+PyPDF2
+numpy
+pytest
