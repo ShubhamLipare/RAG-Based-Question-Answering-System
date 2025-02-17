@@ -9,3 +9,4 @@ mlflow
 PyPDF2
 numpy
 pytest
+langchain_huggingface
