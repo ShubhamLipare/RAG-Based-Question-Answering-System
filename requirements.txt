@@ -10,3 +10,4 @@ PyPDF2
 numpy
 pytest
 langchain_huggingface
+langchain_groq
