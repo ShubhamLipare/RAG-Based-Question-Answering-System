@@ -71,13 +71,3 @@ class VectorStore:
 
         except Exception as e:
             raise CustomException(e, sys)
-
-"""
-if __name__ == "__main__":
-    vectorstore = VectorStore()
-
-    with open("data/splitted.txt", "r", encoding="utf-8") as f:
-        splitted_text = [line.strip() for line in f if line.strip()]
-
-    vectorstore.add_text(splitted_text)
-"""

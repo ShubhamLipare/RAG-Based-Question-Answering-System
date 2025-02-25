@@ -25,15 +25,3 @@ def load_pdf(path):
 
     except Exception as e:
         raise CustomException(e, sys)
-
-"""
-if __name__ == "__main__":
-    file_path = input("Enter path to PDF file: ").strip()
-    text = load_pdf(file_path)
-    
-    if text:
-        os.makedirs("data", exist_ok=True)
-        with open("data/preprocessed_text.txt", "w", encoding="utf-8") as f:
-            f.write(text)
-        logging.info("Processed data saved successfully.")
-"""

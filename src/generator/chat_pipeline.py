@@ -93,21 +93,3 @@ class ChatBot:
         except Exception as e:
             return str(CustomException(e, sys))
 
-"""
-# Running the chatbot
-if __name__ == "__main__":
-    chatbot = ChatBot()
-
-    # Simulating a session with multiple queries
-    session_id = "user_123"  # Unique session ID per user
-
-    response1 = chatbot.get_chat_response("can u explain me history of maharaj in nutshell?", session_id)
-    print(response1)
-
-    response2 = chatbot.get_chat_response("what was my last question?", session_id)
-    print(response2)
-
-    response3 = chatbot.get_chat_response("give me chat history?", session_id)
-    print(response3)
-
-"""
