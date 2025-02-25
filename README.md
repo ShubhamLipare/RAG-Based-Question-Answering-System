@@ -103,5 +103,5 @@ curl "http://127.0.0.1:8000/chat?query=Tell me about RAG"
 📩 **Have issues?** Open an issue or reach out!
 
 ---
-🔗 **GitHub Repository:** [Your Repo](https://github.com/your-repo/rag-chatbot)
+🔗 **GitHub Repository:** [RAG-Based-Question-Answering-System](https://github.com/ShubhamLipare/RAG-Based-Question-Answering-System.git)
 
