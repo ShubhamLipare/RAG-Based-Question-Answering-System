@@ -97,7 +97,7 @@ curl "http://127.0.0.1:8000/chat?query=Tell me about RAG"
 
 ---
 ### 🎯 Contributors
-- **Your Name** - Developer
+- **Shubham Lipare** - Developer
 - **Your Team** - Collaborators
 
 📩 **Have issues?** Open an issue or reach out!
