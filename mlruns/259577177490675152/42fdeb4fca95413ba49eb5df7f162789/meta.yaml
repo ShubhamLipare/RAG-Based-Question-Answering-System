@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/259577177490675152/42fdeb4fca95413ba49eb5df7f162789/artifacts
+end_time: 1742583038142
+entry_point_name: ''
+experiment_id: '259577177490675152'
+lifecycle_stage: active
+run_id: 42fdeb4fca95413ba49eb5df7f162789
+run_name: bold-hog-737
+run_uuid: 42fdeb4fca95413ba49eb5df7f162789
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742583038019
+status: 3
+tags: []
+user_id: Admin

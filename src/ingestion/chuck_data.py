@@ -17,6 +17,14 @@ def chunk_text(text, chunk_size=1024, overlap=200):
 
         if not chunks:
             logging.warning("Text splitting resulted in no chunks. Check input size.")
+
+        ## for validation saving in text file.
+        text=""
+        for i in chunks:
+            text+=i
+
+        with open("data/chunks.txt","w",encoding="utf-8") as file:
+            file.write(text)
         
         return chunks
 

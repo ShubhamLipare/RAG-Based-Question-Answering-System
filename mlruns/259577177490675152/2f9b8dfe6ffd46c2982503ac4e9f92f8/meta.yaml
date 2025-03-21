@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/259577177490675152/2f9b8dfe6ffd46c2982503ac4e9f92f8/artifacts
+end_time: 1742583577958
+entry_point_name: ''
+experiment_id: '259577177490675152'
+lifecycle_stage: active
+run_id: 2f9b8dfe6ffd46c2982503ac4e9f92f8
+run_name: capable-boar-492
+run_uuid: 2f9b8dfe6ffd46c2982503ac4e9f92f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742583577822
+status: 3
+tags: []
+user_id: Admin

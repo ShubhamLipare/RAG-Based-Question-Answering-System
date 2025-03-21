@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/259577177490675152/5206fe2aff0d4c91a1a959d0238d9f19/artifacts
+end_time: 1742582887213
+entry_point_name: ''
+experiment_id: '259577177490675152'
+lifecycle_stage: active
+run_id: 5206fe2aff0d4c91a1a959d0238d9f19
+run_name: enthused-dolphin-499
+run_uuid: 5206fe2aff0d4c91a1a959d0238d9f19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742582886050
+status: 3
+tags: []
+user_id: Admin

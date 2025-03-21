@@ -13,12 +13,20 @@ st.title("Chatbot with RAG and LangChain")
 # Initialize chat history
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
+if "session_id" not in st.session_state:
+    st.session_state.session_id=None
 
 try:
     logging.info("Streamlit app is live")
 
     session_id = st.sidebar.text_input("Enter Session ID")
     query = st.text_input("Ask a question:")
+
+    # Clear chat history if session ID changes, it checks if session id is entered and not equal to previous session id
+    if session_id and (session_id != st.session_state.session_id):
+        st.session_state.chat_history = []
+        st.session_state.session_id=session_id
+
 
     if st.button("Generate response"):
         if query.strip():

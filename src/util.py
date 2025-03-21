@@ -1,1 +1,1 @@
-source_file_path="G:\Resume projects\V2-RAG-Based Question Answering System\std4-bb-evs2.pdf"
+source_file_path="Source"

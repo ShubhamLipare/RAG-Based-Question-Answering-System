@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/259577177490675152/36b3711634ff4d5e9e50540e24260e57/artifacts
+end_time: 1742583235860
+entry_point_name: ''
+experiment_id: '259577177490675152'
+lifecycle_stage: active
+run_id: 36b3711634ff4d5e9e50540e24260e57
+run_name: unleashed-smelt-594
+run_uuid: 36b3711634ff4d5e9e50540e24260e57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742583235747
+status: 3
+tags: []
+user_id: Admin

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/259577177490675152/cd5304089f2c45a090ba7d47a2d370e8/artifacts
+end_time: 1742584022767
+entry_point_name: ''
+experiment_id: '259577177490675152'
+lifecycle_stage: active
+run_id: cd5304089f2c45a090ba7d47a2d370e8
+run_name: colorful-mare-816
+run_uuid: cd5304089f2c45a090ba7d47a2d370e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742584022647
+status: 3
+tags: []
+user_id: Admin

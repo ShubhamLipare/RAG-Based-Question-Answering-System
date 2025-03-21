@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/259577177490675152/6a247127f7564236af0a1131a4a66924/artifacts
+end_time: 1742584056561
+entry_point_name: ''
+experiment_id: '259577177490675152'
+lifecycle_stage: active
+run_id: 6a247127f7564236af0a1131a4a66924
+run_name: indecisive-cod-845
+run_uuid: 6a247127f7564236af0a1131a4a66924
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742584056437
+status: 3
+tags: []
+user_id: Admin

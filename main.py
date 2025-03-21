@@ -10,10 +10,12 @@ def main():
     logging.info("Starting main pipeline")
 
     text=load_pdf(source_file_path)
+    with open("data/extracted_data.txt","w",encoding="utf-8") as file:
+        file.write(text)
     if text is None:
         logging.error("failed to load PDF, exiting")
         return None
-    
+      
     logging.info("splitting into chucnks")
     chunks=chunk_text(text)
     if not chunks:
@@ -27,10 +29,11 @@ def main():
     logging.info("Initializing chatbot...")
     chatbot = ChatBot()
 
-    query = "Tell me about Maharaj by refering context provided"
+    query = "how many GENAI interview question does provided pdf has"
     logging.info(f"Running query: {query}")
     response = chatbot.get_chat_response(query)
     print("\nChatbot Response:\n", response)
+    
 
 if __name__=="__main__":
     main()

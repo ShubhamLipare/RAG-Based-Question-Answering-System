@@ -57,7 +57,7 @@ class ChatBot:
 
             # System Prompt for Answer Generation
             system_prompt = """
-                You are a great historian with deep knowledge of Indian history.
+                You are a great Data scientist with deep knowledge of ML,DL,NLP and GenAI.
                 Given a question, try to answer it in depth by referring to the retrieved context.
                 <context>
                 {context}

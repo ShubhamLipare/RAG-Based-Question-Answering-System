@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/259577177490675152/e9e59f12d1ca4f9b9426f4c7a51eea6b/artifacts
+end_time: 1742583169946
+entry_point_name: ''
+experiment_id: '259577177490675152'
+lifecycle_stage: active
+run_id: e9e59f12d1ca4f9b9426f4c7a51eea6b
+run_name: gifted-fly-271
+run_uuid: e9e59f12d1ca4f9b9426f4c7a51eea6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742583169774
+status: 3
+tags: []
+user_id: Admin
