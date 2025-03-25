@@ -9,6 +9,7 @@ API_URL = "http://127.0.0.1:8000/chat"
 
 # Streamlit UI
 st.title("Chatbot with RAG and LangChain")
+st.subheader("I am expert in Data Science field!!!")
 
 # Initialize chat history
 if "chat_history" not in st.session_state:
@@ -26,6 +27,8 @@ try:
     if session_id and (session_id != st.session_state.session_id):
         st.session_state.chat_history = []
         st.session_state.session_id=session_id
+    else:
+        session_id="default"
 
 
     if st.button("Generate response"):
